@@ -19,10 +19,11 @@ This repository documents my step-by-step learning progression in Backend Web De
 | [`1_creating_server`](./1_creating_server) | **Creating Server** | Express installation, `app.get()`, server listening on port 3000 | [`server.js`](./1_creating_server/server.js), [`README.md`](./1_creating_server/README.md), [`Explanation.md`](./1_creating_server/Explanation.md) |
 | [`2_Rest_api`](./2_Rest_api) | **REST API Basics** | Modular application structure (`app.js` vs `server.js`), route endpoints (`/`, `/contact`, `/about`) | [`src/app.js`](./2_Rest_api/src/app.js), [`server.js`](./2_Rest_api/server.js), [`README.md`](./2_Rest_api/README.md), [`Explanation.md`](./2_Rest_api/Explanation.md) |
 | [`3_notes_project`](./3_notes_project) | **Notes CRUD Project** | Full In-Memory CRUD API (`GET`, `POST`, `PATCH`, `DELETE`), `express.json()` middleware, status codes (`200`, `201`, `400`, `404`) | [`src/app.js`](./3_notes_project/src/app.js), [`server.js`](./3_notes_project/server.js), [`README.md`](./3_notes_project/README.md), [`Explanation.md`](./3_notes_project/Explanation.md) |
+| [`4_MongoDB`](./4_MongoDB) | **MongoDB & Mongoose Guide** | NoSQL database concepts, Atlas cloud setup, Compass GUI tool, Mongoose schema & connections | [`README.md`](./4_MongoDB/README.md), [`Explanation.md`](./4_MongoDB/Explanation.md) |
 
 ---
 
-## 📝 Folder Document standard
+## 📝 Folder Document Standard
 
 Each module folder in this repository contains two primary documentation files:
 1. **`README.md`**: User guide explaining project overview, directory structure, endpoint documentation, and execution commands.
@@ -33,7 +34,8 @@ Each module folder in this repository contains two primary documentation files:
 ## 🛠 Tech Stack & Tools
 - **Runtime Environment**: Node.js
 - **Framework**: Express.js
-- **Database**: MongoDB (Coming in upcoming modules)
+- **Database**: MongoDB (Atlas & Compass GUI)
+- **ODM**: Mongoose
 - **API Testing**: Postman / Thunder Client / cURL
 - **Version Control**: Git & GitHub
 
