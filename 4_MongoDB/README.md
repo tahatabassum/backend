@@ -49,7 +49,7 @@ This module demonstrates how to connect a Node/Express backend to MongoDB Atlas 
    Create a `.env` file in the root of the `4_MongoDB` directory and add your MongoDB connection string (make sure it ends with `/notes_db`):
    ```env
    PORT=3000
-   MONGO_URI=mongodb+srv://taha:taha1234@cluster1.fpuvagz.mongodb.net/notes_db?retryWrites=true&w=majority
+   MONGO_URI=mongodb+srv://<username>:<password>@cluster1.fpuvagz.mongodb.net/notes_db?retryWrites=true&w=majority
    ```
 
 4. Start the server:
