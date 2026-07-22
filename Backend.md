@@ -20,6 +20,7 @@ This repository documents my step-by-step learning progression in Backend Web De
 | [`2_Rest_api`](./2_Rest_api) | **REST API Basics** | Modular application structure (`app.js` vs `server.js`), route endpoints (`/`, `/contact`, `/about`) | [`src/app.js`](./2_Rest_api/src/app.js), [`server.js`](./2_Rest_api/server.js), [`README.md`](./2_Rest_api/README.md), [`Explanation.md`](./2_Rest_api/Explanation.md) |
 | [`3_notes_project`](./3_notes_project) | **Notes CRUD Project** | Full In-Memory CRUD API (`GET`, `POST`, `PATCH`, `DELETE`), `express.json()` middleware, status codes (`200`, `201`, `400`, `404`) | [`src/app.js`](./3_notes_project/src/app.js), [`server.js`](./3_notes_project/server.js), [`README.md`](./3_notes_project/README.md), [`Explanation.md`](./3_notes_project/Explanation.md) |
 | [`4_MongoDB`](./4_MongoDB) | **MongoDB Connected CRUD** | MongoDB Atlas cloud integration, Compass GUI, Mongoose Schemas & Models, and persistent CRUD operations | [`server.js`](./4_MongoDB/server.js), [`src/app.js`](./4_MongoDB/src/app.js), [`README.md`](./4_MongoDB/README.md), [`Explanation.md`](./4_MongoDB/Explanation.md) |
+| [`5_image_upload_project`](./5_image_upload_project) | **Image Upload Project** | Multer file memory buffers, ImageKit.io cloud storage API integration, and metadata storage in MongoDB | [`server.js`](./5_image_upload_project/server.js), [`src/app.js`](./5_image_upload_project/src/app.js), [`README.md`](./5_image_upload_project/README.md), [`Explanation.md`](./5_image_upload_project/Explanation.md) |
 
 ---
 
